@@ -4,11 +4,11 @@ color 0C
 Setlocal EnableExtensions
 mode con: lines=20 
 echo.
-echo  Û    Û  ÜßßÜ  ÛßßßÜ  ÛßßßÜ          ÛßßßÜ   ßßÛßß ÛÜ   Û  ÜßßßÜ
-echo  Û    Û Û    Û Û    Û Û    Û         Û    Û    Û   Û Û  Û Û     
-echo  ÛßßßßÛ ÛÜÜÜÜÛ ÛÜÜÜß  Û    Û         ÛÜÜÜß     Û   Û  Û Û Û  ÜÜ 
-echo  Û    Û Û    Û Û   Û  Û    Û         Û         Û   Û   ÛÛ Û    Û
-echo  Û    Û Û    Û Û    Û ÛÜÜÜß          Û       ÜÜÛÜÜ Û    Û  ßÜÜß 
+echo  Ã›    Ã›  ÃœÃŸÃŸÃœ  Ã›ÃŸÃŸÃŸÃœ  Ã›ÃŸÃŸÃŸÃœ          Ã›ÃŸÃŸÃŸÃœ   ÃŸÃŸÃ›ÃŸÃŸ Ã›Ãœ   Ã›  ÃœÃŸÃŸÃŸÃœ
+echo  Ã›    Ã› Ã›    Ã› Ã›    Ã› Ã›    Ã›         Ã›    Ã›    Ã›   Ã› Ã›  Ã› Ã›     
+echo  Ã›ÃŸÃŸÃŸÃŸÃ› Ã›ÃœÃœÃœÃœÃ› Ã›ÃœÃœÃœÃŸ  Ã›    Ã›         Ã›ÃœÃœÃœÃŸ     Ã›   Ã›  Ã› Ã› Ã›  ÃœÃœ 
+echo  Ã›    Ã› Ã›    Ã› Ã›   Ã›  Ã›    Ã›         Ã›         Ã›   Ã›   Ã›Ã› Ã›    Ã›
+echo  Ã›    Ã› Ã›    Ã› Ã›    Ã› Ã›ÃœÃœÃœÃŸ          Ã›       ÃœÃœÃ›ÃœÃœ Ã›    Ã›  ÃŸÃœÃœÃŸ 
 echo.
 echo.
 echo.
@@ -61,14 +61,14 @@ cls
 :exit
 cls
 title HARD PING ;D
-echo Obrigado! joedev.com.br and bbcreative.org
+echo Obrigado! bestbrand.com.br
 ping -n 3 127.0.0.1>nul
 exit
 
 
 :obterPing
 set var_name=%~1
-set %var_name%=Erro! Não foi possível completar o Ping.
+set %var_name%=Erro! NÃ£o foi possÃ­vel completar o Ping.
 set comando_ping=Ping %server% -l 60000 -n 30
 
 for /f "tokens=* delims=*" %%a in ('%comando_ping%') do (set "a=%%a")
